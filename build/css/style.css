@@ -1,0 +1,23 @@
+html, body, navbar, header, footer {
+  margin: 0; }
+
+.padding-item, .chat-title .text, .chat-block .chat-item, .chat-editor div {
+  padding: 10px; }
+
+.fullwidth, .chat-title, .chat-block, .chat-editor, .chat-editor textarea {
+  width: 100%; }
+
+.chat-title {
+  background: #00a1ff;
+  color: #FFFFFF;
+  padding: 10px 0; }
+
+.chat-block .chat-item.me {
+  background: #FFFFFF; }
+
+.chat-block .chat-item.opponent {
+  background: #f4f4f4; }
+
+.chat-editor {
+  position: absolute;
+  bottom: 0; }
